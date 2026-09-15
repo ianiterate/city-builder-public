@@ -81,3 +81,7 @@ existing settlement centre. A **manor** takes a free region too but founds nothi
 
 A settlement is called a hamlet while no house is above the first tier, a village once some are,
 and a town once half its households are burgher houses or better.
+
+Rival houses hold a walled seat of their own in every region they own - a hall inside a palisade
+ring with one gate - which you cannot enter or build in until you break it; see
+[Raids and defence](raids-and-defence.md#campaigns-on-the-map).

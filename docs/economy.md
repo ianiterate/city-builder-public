@@ -22,6 +22,7 @@ whether the village survives its first winters.
 | Fish | Fishing hut, spring to autumn | food | 400 |
 | Ale | Brewery (2 grain + 1 firewood into 3) | burgher houses, townhouses, tavern | 120 |
 | Salt | Saltworks, all year | townhouses | 60 |
+| Torch | Blacksmith (1 wood + 1 firewood into 2) | carried on campaign: burns gates, walls and halls three times faster | 30 |
 
 The store limit is the most of a resource the realm keeps; production pauses at the limit so
 workers do not fill the stores with one thing.

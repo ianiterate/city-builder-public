@@ -82,16 +82,17 @@ are ready. The campaign button lists what is missing as a checklist: border it f
 build in it, raise standing, assign men, wait out a truce, or renounce a pact first. The estimate
 shows both strengths and a low and high count of the dead before you commit.
 
-Your party is 2 per man, 3 with a tool, times the lord's warlike trait, plus any hired company.
-The band is away ten days and the fight is resolved off the map with a spread of a fifth either
-way. Casualties are at most a third of the band on either side, weakest first, never the lord, and
-the dead are named. A won conquest takes the region, 15 standing and 20 gold plus a fifth of the
-loser's wealth; a lost one buries the fallen. Any conquest ends the war with a 180-day truce.
+The fight itself happens on the map: the band musters at a border post, crosses, and has four days
+to break the ring around the rival's seat and burn the hall. The garrison sallies out to stop it.
+See [Campaigns on the map](raids-and-defence.md#campaigns-on-the-map) for the hit points, the
+torches and the casualty rules. A won conquest takes the region, 15 standing and 20 gold plus a
+fifth of the loser's wealth, and ends the war with a 180-day truce.
 
-A **raid** on a house's home region needs neither claim nor border, takes no land, and against a
-defender counted at 60 %; losers come home wounded rather than dead.
+A **raid** on a house's home region needs neither claim nor border and takes no land; the band
+loots and leaves.
 
-Houses campaign against you the same way. "Walls that held" is the card for repelling one.
+Houses campaign against you the same way, on your ground. "Walls that held" is the card for
+repelling one.
 
 ## Diplomacy
 

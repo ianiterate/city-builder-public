@@ -57,5 +57,46 @@ A sacking costs every villager in the settlement 0.15 happiness. Either way the 
 attitude afterwards. The result lists the defence, the dead and wounded, raiders killed, buildings
 damaged and destroyed, and the loot. Damaged buildings produce less until a labourer repairs them.
 
-Campaigns by a rival house against your regions are a different thing, resolved off the map; see
-[Regions and rivals](regions-and-rivals.md).
+## Campaigns on the map
+
+A campaign is fought where you can watch it. When you march on a rival region (see
+[Regions and rivals](regions-and-rivals.md)), your militia leaves the barracks and **musters at a
+border post**: the tile of yours nearest the rival's hall. The band waits until every man stands
+there, then crosses the border together and walks to the seat. It cuts through anything in the way
+rather than going around forever.
+
+Every rival house holds a **seat** in each of its regions: a hall inside a palisade ring with one
+gate. The house's first seat also has a barracks and a watchtower. You cannot enter the ring
+without breaking it, and you cannot build inside it.
+
+- The **garrison** sallies out when your band comes within 8 tiles of the hall: 2 to 8 spearmen,
+  scaled by the share of the house's army that region carries. Each one killed takes a spear off
+  the house's army for good.
+- **Getting in** means hacking: a gate has 60 hit points, a palisade piece 60, at 0.6 a tick per
+  man. The **watchtower** at a home seat shoots 0.25 damage every 20 ticks at any man within
+  10 tiles, so a slow breach is a bleeding one.
+- A **torch** in the hand does three times the damage to a gate, a wall or a hall, and is used up
+  on the first thing it burns down. The blacksmith makes two from one wood and one firewood; each
+  militiaman takes one from the nearest store at muster if there is one.
+- The band has **four days at the walls**. If the hall still stands when they run out, or if the
+  band is wiped, the survivors turn for home and the defender counts the campaign repelled.
+- Burning the **hall** to nothing takes the region there and then, with everything that stands in
+  it, and a 180-day truce follows.
+
+Casualties are capped: at most a third of the band falls, and never the lord. A man down to 40 %
+health leaves the fight and walks home wounded. Men in a band neither eat nor freeze; each carries
+one ration from the muster.
+
+## Their campaigns
+
+A house that means to take a region of yours announces it six days ahead, and you can still buy the
+band off the road. When the six days are up, **their band lands at the map edge** of that region
+and marches on your hall or manor there, through your walls and past your towers, with your militia
+and the villagers reacting exactly as they do in a raid.
+
+- If the hall burns, that region is lost with the buildings in it.
+- If the band is killed or turns for home empty-handed, the campaign is repelled: that is what the
+  card "Walls that held" counts.
+
+So the walls you built against raiders are the walls that decide the war. A gate is the weak point
+on both sides of a border.
