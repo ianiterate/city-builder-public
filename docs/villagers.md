@@ -1,0 +1,98 @@
+# Villagers
+
+Every person in the village is simulated individually: where they live, what they carry, how
+hungry and cold they are, and what they decide to do next.
+
+## Needs
+
+Two meters drive everything: **hunger** and **cold**.
+
+- Hunger rises by one unit a day. One meal takes it back down by one.
+- Cold rises with the season: almost none in spring, none in summer, a quarter unit a day in
+  autumn and a full unit a day in winter, multiplied by the weather. A villager without clothing
+  gets cold 1.5 times as fast. In spring and summer cold thaws by half a unit a day.
+- At a full hunger meter a villager is **starving** and dies after 5 days without a meal.
+- At a full cold meter a villager is **freezing** and dies after 4 days without warmth.
+- A villager who is neither starving nor freezing heals a quarter of their health a day.
+
+Warmth comes from a lit hearth. Sleeping at home with the hearth lit removes two units of cold a
+night; standing at a fire removes four a day. A hearth is lit only if the house has firewood on its
+shelf: each house burns 0.2 logs a day in spring, none in summer, 0.4 in autumn and 1 in winter,
+times the weather.
+
+## What they do all day
+
+A villager's brain checks, in this order: is there a raid, am I hungry, am I cold, is it night,
+am I carrying something to deliver, do I have a job, is there labour to do, otherwise wander.
+Children never work.
+
+- They go to eat when hunger reaches 0.8, but if a larder is within 4 tiles they top up already
+  at 0.5, and they eat straight from what they carry if they are starving. Long commutes used to
+  starve workers; now a worker walking past food eats.
+- They go to warm up at 0.5 cold, or already at 0.25 in autumn and winter when a hearth is close.
+- They prefer their own house's larder and hearth over a public one up to 6 extra tiles away.
+- At 90 % of the day they go home to sleep. Villagers are hidden while inside.
+- Walking speed is 0.3 tiles a tick, 40 % faster on roads.
+
+## Houses
+
+| House | Beds | Upgrade cost | Requires |
+| --- | --- | --- | --- |
+| House | 4 | 16 wood to build | |
+| Burgher house | 6 | 10 planks, 6 stone | a market in range, ale on the shelf |
+| Townhouse | 6 | 12 planks, 16 stone | a church in range, ale and salt |
+
+Houses are larders and woodpiles: each keeps a few days of food and firewood on its shelf and
+labourers restock them from the stores. See [Buildings and town tiers](buildings-and-tiers.md).
+
+## Population
+
+- Villagers age four years for every game year. They become adults at 14, elders at 55, and die of
+  old age between 55 and 80 with rising odds, certainly at 80.
+- A housed couple aged 16 to 45 with a free bed and food on their shelf has a 3 % chance a day of a
+  child, as long as their settlement holds at least 15 days of food per head.
+- Every 30 days settlers may arrive: two adults, if there are at least two free beds, 20 days of
+  food per villager and town happiness of 0.5 or better.
+- A new game starts with 6 villagers aged 16 to 36 and a stockpile holding 60 wood, 120 grain,
+  40 meat, 30 firewood, 12 tools and 12 clothing (scaled by difficulty).
+
+## Jobs
+
+Jobs are rebalanced once a day. Food jobs come first, then firewood, then everything else in the
+order it was built; seasonal fields jump the queue in their season. About half the workforce at most
+goes to food. A reserve of labourers is always kept back for hauling and building: two or a third of
+the adults while anything is under construction, one or a fifth otherwise. You can lock a villager
+to a job on the villagers screen and the daily rebalance leaves them alone.
+
+A worker with a **tool** works at full speed; without one at half speed. A tool lasts about 80 days
+of work. **Clothing** lasts 360 days and halves the winter cold.
+
+## Happiness
+
+Every villager has a happiness value that drifts toward a target each day. The target starts at 0.5
+and moves with:
+
+| Condition | Effect |
+| --- | --- |
+| Housed | +0.10 |
+| Homeless | -0.20 |
+| Starving or freezing | -0.30 each |
+| Clothed | +0.05 |
+| Two or more kinds of food in store | +0.10 |
+| Each tax level | -0.08 |
+| Church in range | +0.15 |
+| Market in range | +0.10 |
+| Tavern in range, stocked with ale | +0.08 |
+| Manor, hall, well, watchtower in range | +0.06, +0.05, +0.05, +0.03 |
+| Burgher or townhouse needs met | +0.05 or +0.08 |
+| Burgher or townhouse needs unmet | -0.10 or -0.15 |
+| The lord's death | -0.20, fading over 30 days |
+
+Below 0.4 a villager has a 15 % chance each day to refuse to work. Below 0.25 for 20 days in a row
+an adult emigrates.
+
+## Deaths
+
+Villagers die of starvation, cold, old age, raiders and the occasional plague event. Every death is
+written into the [Chronicle](dynasty-and-chronicle.md), and the steward raises an alert while it can
+still be prevented (see [Alerts](alerts.md)).
