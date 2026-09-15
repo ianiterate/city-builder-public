@@ -36,7 +36,7 @@ adult, all scaled by the lord's warlike trait. "Watch the borders" asks for 8.
 - A **watchtower** shoots any raider within 10 tiles.
 - A **palisade** has 60 hit points and a **gate** 40. Raiders path around walls when they can and
   hack through when they must, at 0.6 hit points a tick; the gate is the weak point they go for
-  first. A wall never changes the ground under it.
+  first.
 
 ## Walls without regret
 

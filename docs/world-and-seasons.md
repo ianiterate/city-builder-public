@@ -23,8 +23,8 @@ Terrain matters for placement, not only for looks:
 | Mine | The foot of a mountain within 6. |
 | Farm | Anywhere buildable; up to +50 % yield when the 3 by 3 field sits on fertile soil. |
 
-Houses and workshops flatten a pad under themselves. Roads speed walking by 40 %. Palisades and
-gates do not touch the ground at all (see [Raids and defence](raids-and-defence.md)).
+Building never changes the ground. A building stands on a stone plinth that follows the slope
+under it, so a hillside stays a hillside. Roads speed walking by 40 %.
 
 ## Forest
 

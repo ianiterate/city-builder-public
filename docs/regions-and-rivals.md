@@ -6,8 +6,8 @@ houses that grow, settle, covet and march on their own.
 ## Regions
 
 The valley is cut into 6 to 14 regions of roughly 350 land tiles each, named like Ravendale or
-Thornmere. Your start is always region one. A region has one owner or none; tiles are tinted by
-owner and border posts mark the edges. Press M for the regional map: hover a region for its holder
+Thornmere. Your start is always region one. A region has one owner or none; on the ground a border is a
+faint line in the owner's colour with a marker post every few tiles, not a fence. Press M for the regional map: hover a region for its holder
 and the claim meters, click it for what stands there, your claim broken into its parts, and what you
 may do about it.
 
