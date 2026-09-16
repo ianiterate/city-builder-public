@@ -60,7 +60,11 @@ labourers restock them from the stores. See [Buildings and town tiers](buildings
 
 Jobs are rebalanced once a day. Food jobs come first, then firewood, then everything else in the
 order it was built; seasonal fields jump the queue in their season. About half the workforce at most
-goes to food. A reserve of labourers is always kept back for hauling and building: two or a third of
+goes to food. What counts as short is the amount the village wants to **keep at least**: 20 days of
+food, 15 days of firewood per house, a tool and a set of clothes per adult, and a set amount of each
+material (60 wood, 20 planks, 20 stone, 10 iron, 10 leather). The food and firewood lines are
+measured against the highest population of the last 30 days, so a raid or a hard winter does not
+quietly shrink the buffer the village works towards. A reserve of labourers is always kept back for hauling and building: two or a third of
 the adults while anything is under construction, one or a fifth otherwise. You can lock a villager
 to a job on the villagers screen and the daily rebalance leaves them alone.
 

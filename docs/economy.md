@@ -5,28 +5,29 @@ whether the village survives its first winters.
 
 ## Resources
 
-| Resource | Made by | Used for | Store limit |
+| Resource | Made by | Used for | Spoils |
 | --- | --- | --- | --- |
-| Wood | Woodcutter | every building, firewood, planks, tools | 250 |
-| Firewood | Wood splitter (1 wood into 5) | hearths in autumn and winter, bakery, brewery | 600 |
-| Planks | Sawmill (2 wood into 1) | workshops, barn, civic buildings, house upgrades | 30 |
-| Stone | Quarry | mill, bakery, blacksmith, church, well, house upgrades | 100 |
-| Iron | Mine | tools | 40 |
-| Tools | Blacksmith (1 iron + 1 wood) | one per worker, full work speed | 30 |
-| Leather | Pasture | clothing | 40 |
-| Clothing | Tailor (2 leather into 1) | one per villager, halves winter cold | 30 |
-| Grain | Farm (autumn harvest) | eaten raw, flour, ale | 600 |
-| Flour | Mill (2 grain into 2) | bread | 100 |
-| Bread | Bakery (2 flour + 1 firewood into 5) | food | 400 |
-| Meat | Hunter, Pasture | food | 250 |
-| Fish | Fishing hut, spring to autumn | food | 400 |
-| Ale | Brewery (2 grain + 1 firewood into 3) | burgher houses, townhouses, tavern | 120 |
-| Salt | Saltworks, all year | townhouses | 60 |
-| Torch | Blacksmith (1 wood + 1 firewood into 2) | carried on campaign: burns gates, walls and halls three times faster | 30 |
-| Battering ram | Sawmill (6 planks + 2 wood into 1, once 40 planks lie in the yard) | pushed to a gate on campaign: brings gates and palisades down five times faster | 2 |
+| Wood | Woodcutter | every building, firewood, planks, tools | Weathers |
+| Firewood | Wood splitter (1 wood into 5) | hearths in autumn and winter, bakery, brewery | Weathers |
+| Planks | Sawmill (2 wood into 1) | workshops, barn, civic buildings, house upgrades | Weathers |
+| Stone | Quarry | mill, bakery, blacksmith, church, well, house upgrades | - |
+| Iron | Mine | tools | - |
+| Tools | Blacksmith (1 iron + 1 wood) | one per worker, full work speed | - |
+| Leather | Pasture | clothing | - |
+| Clothing | Tailor (2 leather into 1) | one per villager, halves winter cold | - |
+| Grain | Farm (autumn harvest) | eaten raw, flour, ale | Rots |
+| Flour | Mill (2 grain into 2) | bread | Rots |
+| Bread | Bakery (2 flour + 1 firewood into 5) | food | Rots |
+| Meat | Hunter, Pasture | food | Rots |
+| Fish | Fishing hut, spring to autumn | food | Rots |
+| Ale | Brewery (2 grain + 1 firewood into 3) | burgher houses, townhouses, tavern | - |
+| Salt | Saltworks, all year | townhouses | - |
+| Torch | Blacksmith (1 wood + 1 firewood into 2) | carried on campaign: burns gates, walls and halls three times faster | - |
+| Battering ram | Sawmill (6 planks + 2 wood into 1, once 40 planks lie in the yard) | pushed to a gate on campaign: brings gates and palisades down five times faster | - |
 
-The store limit is the most of a resource the realm keeps; production pauses at the limit so
-workers do not fill the stores with one thing.
+**Spoils** says what happens to a good left outside a full store. *Rots*: 15 per cent of the
+unsheltered pile is lost each season. *Weathers*: 10 per cent a season, but only in wet or harsh
+weather. Everything kept under a roof keeps forever; nothing is ever lost inside a store.
 
 ## How much a village needs
 
@@ -60,10 +61,43 @@ A **pasture** is a 3 by 3 plot giving 3 meat and 1 leather per cycle with no inp
 
 ## Stores and larders
 
-The **stockpile** (500 units, anything) is the village's first store. A **barn** (600) holds food
-only. The hall, market and trading post also store goods. Every house keeps a small larder and
-woodpile on its shelf, and labourers restock houses from the stores, so villagers eat and warm up
-at home rather than walking to the stockpile.
+How much the realm can hold is decided by what you have built. Each store has its own capacity:
+
+| Store | Holds | Under cover |
+| --- | --- | --- |
+| Stockpile | anything | 500 |
+| Barn | food and flour | 600 |
+| Granary | grain, flour and bread | 900 |
+| Village hall | anything | 150 |
+| Market | anything | 150 |
+| Trading post | staged goods | 300 |
+
+Every stockpile, barn and granary also takes **half again as much outside**, as an unsheltered pile
+in the yard: a barn holding 600 under its roof takes 300 more in the open. That pile is not safe.
+Unsheltered food rots at 15 per cent a season, and unsheltered wood, firewood and planks lose 10 per
+cent a season in wet or harsh weather. The hall, the market, the trading post, houses and workshops
+have no yard: they fill and stop.
+
+The sheltered space goes to the goods that are worth most work first: bread and flour, ale, salt,
+cloth and tools are put under the roof before raw grain, logs and fish, so a full barn puts the raw
+grain outside before a loaf.
+
+Producers **work into the overflow** and down tools only when the outside pile is full too, or
+once the realm already holds six times its keep-at-least line of a good, so one stockpile does not
+swallow a summer of wood nobody needs. When
+that happens the workshop panel says so and the steward raises "no room left in any store". Before
+it comes to that you get a warning that goods are lying outside and spoiling: raise another store.
+
+Carters relieve a settlement whose stores pass **90 per cent** full, moving goods down to 70 per
+cent into another settlement that has room, and never below what the first settlement needs itself.
+
+The village aims to keep at least **20 days of food** and **15 days of firewood per house** in
+store, measured against the highest population of the last 30 days, so a raid or a hard winter does
+not shrink the buffer it is working towards. Below that line the job steward puts more hands on
+food and fuel.
+
+Every house also keeps a small larder and woodpile on its shelf, and labourers restock houses from
+the stores, so villagers eat and warm up at home rather than walking to the stockpile.
 
 Stock counts are **realm wide**: the top bar shows everything in every store in every settlement.
 Goods move between settlements by cart. A settlement may only send away what it holds above its own

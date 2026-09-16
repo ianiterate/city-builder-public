@@ -47,16 +47,20 @@ crop growth.
 | Season | Weather | Chance | Effect |
 | --- | --- | --- | --- |
 | Spring | Mild | 6 in 10 | none |
-| Spring | Wet | 2 in 10 | crops grow 20 % faster |
-| Spring | Late frost | 2 in 10 | cold and firewood 1.5x, crops 0.8x |
+| Spring | Wet | 2 in 10 | crops grow 20 % faster; wet |
+| Spring | Late frost | 2 in 10 | cold and firewood 1.5x, crops 0.8x; wet |
 | Summer | Fair | 6 in 10 | none |
 | Summer | Drought | 2 in 10 | crops 0.5x |
 | Summer | Hot | 2 in 10 | crops 1.15x |
 | Autumn | Calm | 6 in 9 | none |
-| Autumn | Early cold | 3 in 9 | cold and firewood 1.4x |
+| Autumn | Early cold | 3 in 9 | cold and firewood 1.4x; wet |
 | Winter | Normal | 6 in 11 | none |
-| Winter | Harsh | 3 in 11 | cold and firewood 1.6x |
+| Winter | Harsh | 3 in 11 | cold and firewood 1.6x; wet |
 | Winter | Mild | 2 in 11 | cold and firewood 0.7x |
+
+A **wet** weather is one that spoils what is left out of doors: wood, firewood and planks piled
+outside a full store lose 10 per cent of the pile over such a season (see [Economy](economy.md)).
+Food rots outside whatever the weather.
 
 ## What the seasons do
 

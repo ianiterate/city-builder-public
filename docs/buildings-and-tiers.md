@@ -23,14 +23,14 @@ in free build everything is open from the start.
 
 | Building | Size | Cost | Workers | What it does |
 | --- | --- | --- | --- | --- |
-| Stockpile | 2x2 | 8 wood | 1 carter | stores 500 of anything |
+| Stockpile | 2x2 | 8 wood | 1 carter | stores 500 of anything, plus 250 outside in the open |
 | Woodcutter's hut | 2x2 | 10 wood | 2 | wood from forest within 8 |
 | House | 2x2 | 16 wood | | 4 beds, a larder and a hearth |
 | Hunter's lodge | 2x2 | 12 wood | 2 | meat from forest within 12 |
 | Wood splitter | 2x2 | 10 wood | 2 | 1 wood into 5 firewood |
 | Fishing hut | 2x2 | 12 wood | 2 | fish, needs water beside it, not in winter |
 | Farm | 3x3 | 6 wood | 1 | grain, harvested in autumn |
-| Barn | 3x2 | 20 wood, 6 planks | | stores 600 of food |
+| Barn | 3x2 | 20 wood, 6 planks | | stores 600 of food and flour, plus 300 outside where it rots |
 | Well | 1x1 | 8 stone | | +0.05 happiness within 8 |
 | Pasture | 3x3 | 16 wood | 1 herder | meat and leather |
 | Palisade | 1x1 | 2 wood | | a wall piece, 60 hit points |
@@ -41,6 +41,7 @@ in free build everything is open from the start.
 | Barracks | 3x2 | 24 wood, 8 planks | 4 militia | trains the militia |
 | Mill | 2x2 | 10 wood, 10 planks, 6 stone | 1 | grain into flour |
 | Bakery | 2x2 | 8 wood, 8 planks, 10 stone | 1 | flour and firewood into bread |
+| Granary | 3x2 | 24 wood, 8 planks, 6 stone | | stores 900 of grain, flour and bread, plus 450 outside |
 | Blacksmith | 2x2 | 8 wood, 6 planks, 12 stone | 1 | iron and wood into tools |
 | Mine | 2x2 | 16 wood, 6 planks | 2 | iron from a mountain foot within 6 |
 | Tailor | 2x2 | 10 wood, 6 planks | 1 | leather into clothing |

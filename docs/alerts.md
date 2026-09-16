@@ -19,6 +19,14 @@ has recovered to one and a half times the line, so it does not flicker.
 | Building starves the hearths | construction is eating the wood the hearths need |
 | Local larder / local woodpile | one settlement has under 2 days of its own food or firewood while the realm has plenty |
 | Walled in | walls leave villagers with no path to a storehouse that holds food |
+| Stores overflowing | a settlement has had goods lying outside its stores for three days |
+| No room in any store | a good being produced has nowhere left to go, and the workers have downed tools |
+
+The two store warnings follow from how storage works (see [Economy](economy.md)): a full store
+keeps taking goods as an unsheltered pile of half again its size, where food rots and timber
+weathers, and only when that pile is full too do producers stop. The first warning names the
+settlement and asks for another barn, granary or stockpile; the second means work has already
+halted somewhere.
 
 Stock alerts are measured realm wide. In autumn the woodpile is measured against the winter ahead,
 not the current burn rate, so a warning in late autumn means the winter stock is short.
