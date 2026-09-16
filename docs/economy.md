@@ -48,11 +48,19 @@ again at two.
 | Job | Yield | Notes |
 | --- | --- | --- |
 | Woodcutter | 4 wood per trip | fells the tree; forests regrow slowly |
-| Hunter | 5 meat per trip | leaves the forest standing |
+| Hunter | up to 5 meat per trip | needs woods: see below |
 | Fisher | 4 fish per trip | not in winter |
 | Quarrier | 2 stone per trip | needs stone tiles |
 | Miner | 1 iron per trip | needs a mountain foot |
 | Salter | 2 salt per trip | needs water, works all year |
+
+**Game follows the woods.** A hunter's catch depends on how much forest stands within 12 tiles of
+the lodge: a full 5 meat where there are **40 forest tiles or more**, and as little as a **third**
+of that where the trees are all but gone, scaled in between. Hunting is not free either - about
+one trip in ten thins a tree near the lodge, the same as a woodcutter's felling. Woodcutters and
+hunters therefore share the same woods, and a forest cleared for timber quietly starves the
+larder. Site lodges in deep forest, leave a stand uncut near them, and remember that forests grow
+back slowly.
 
 Each of these huts takes two workers. A **farm** is a 3 by 3 field with one farmer: planting takes
 work in spring, the crop needs 45 growing days, and the harvest in autumn is up to 36 cycles of
@@ -82,11 +90,21 @@ The sheltered space goes to the goods that are worth most work first: bread and 
 cloth and tools are put under the roof first, then meat and fish, and raw grain, logs, firewood and
 planks last, so a full barn puts the raw grain outside before a loaf.
 
+A hauler carrying goods in **looks for a roof before a yard**, even when that means a longer walk:
+a full stockpile next door loses out to a barn across the village with sheltered room. A yard pile
+is only made when no store within reach has room under cover. Once something is lying outside,
+carriers **move it back in**: a villager will carry a yard pile to another store in the same
+village that takes that good and still has sheltered room, so goods stop rotting in the open while
+the granary next to them stands empty. Goods are never shuffled between villages this way; that is
+the carters' work.
+
 Producers **work into the overflow** and down tools only when the outside pile is full too, or
 once the realm already holds six times its keep-at-least line of a good, so one stockpile does not
-swallow a summer of wood nobody needs. When that happens the workshop panel says so and the
-steward raises "no room left in any store". Before it comes to that you get a warning that goods
-are lying outside and spoiling: raise another store.
+swallow a summer of wood nobody needs. Food is the exception: hunters, fishers, farmers and
+herders down tools once the realm holds **60 days of meals**, and go back to work as soon as the
+larder falls under it. When a producer stops the workshop panel says so and the steward raises
+"no room left in any store". Before it comes to that you get a warning that goods are lying
+outside and spoiling, naming the store and the good (see [Warnings](alerts.md)).
 
 Carters relieve a settlement whose stores pass **90 per cent** full, moving goods down to 70 per
 cent into another settlement that has room, and never below what the first settlement needs itself.
@@ -109,6 +127,11 @@ larder" or "local woodpile" warning rather than a general shortage.
 A **trading post** brings a merchant every 30 days for an 8-day stay (every 15 with a trade pact).
 Each visit offers four goods drawn from tools, clothing, iron, stone, grain, planks, leather and
 firewood. You buy at 1.5 times a good's value and sell at 0.6 times it.
+
+A merchant's purse tires of the same crate: every **60 of one good sold in a single visit** drops
+that good's price by a **tenth** for the rest of the visit, and the discount resets when the next
+merchant arrives. Selling 180 leather at once therefore fetches noticeably less than 60 leather on
+three visits, so spread a big surplus out or sell a mix.
 
 Standing rules per good let trade run itself: *sell above* a threshold, *buy up to* a threshold, or
 ignore. Only goods staged at the post (at most 60 per kind) can be sold, and two floors are never

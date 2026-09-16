@@ -25,11 +25,18 @@ capacity of its land, earns half a gold per head a season and pays a gold per sp
 army toward its target. Every ten days it decides what to pursue: grow, settle free land, covet a
 neighbour's region, recover lost land, or defend. It expands once its population passes 70 % of
 capacity and marches only when its claim is over the line, it can pay, and it reckons itself 1.1
-times stronger than the defender, four times against a capital. Houses also deal with each other:
+times stronger than the defender, **2.5 times** against a capital. Houses also deal with each other:
 they sign pacts, quarrel, and march on one another across the same map you play on. A house
 that covets a neighbour's region sends its spearmen from its nearest hall, and you can watch the
 fight and the burning hall from your own land. A house far behind the leader grows faster and the
 leader slower, until the valley is won.
+
+**A house behind you does not stay behind.** While a house stands lower than you in standing, it
+raises its army toward at least **four fifths of your militia** - as long as its treasury can pay
+the spears; a poor house still musters what it can afford. And every year the houses' standing is
+scored a little closer to yours: a **twentieth of the gap a year**, up to a point where their
+score counts level with yours. Ten years of quiet building no longer leaves you alone at the top
+of the ledger with two harmless neighbours; the valley has to be won while you are ahead.
 
 A house remembers. A refused demand, a campaign against it, or a region taken raises its grudge;
 gifts, pacts and marriages lower it. Grudges fade with a half-life of about half a year, and

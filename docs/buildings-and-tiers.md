@@ -29,7 +29,7 @@ in free build everything is open from the start.
 | Stockpile | 2x2 | 8 wood | 1 carter | stores 500 of anything, plus 250 outside in the open |
 | Woodcutter's hut | 2x2 | 10 wood | 2 | wood from forest within 8 |
 | House | 2x2 | 16 wood | | 4 beds, a larder and a hearth |
-| Hunter's lodge | 2x2 | 12 wood | 2 | meat from forest within 12 |
+| Hunter's lodge | 2x2 | 12 wood | 2 | meat from forest within 12; yield falls as the woods thin |
 | Wood splitter | 2x2 | 10 wood | 2 | 1 wood into 5 firewood |
 | Fishing hut | 2x2 | 12 wood | 2 | fish, needs water beside it, not in winter |
 | Farm | 3x3 | 6 wood | 1 | grain, harvested in autumn |

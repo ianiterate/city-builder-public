@@ -19,14 +19,25 @@ has recovered to one and a half times the line, so it does not flicker.
 | Building starves the hearths | construction is eating the wood the hearths need |
 | Local larder / local woodpile | one settlement has under 2 days of its own food or firewood while the realm has plenty |
 | Walled in | walls leave villagers with no path to a storehouse that holds food |
-| Stores overflowing | a settlement has had goods lying outside its stores for three days |
+| Stores overflowing | a settlement has had goods lying outside its stores for three days; the card names the store and the good |
 | No room in any store | a good being produced has nowhere left to go, and the workers have downed tools |
 
 The two store warnings follow from how storage works (see [Economy](economy.md)): a full store
 keeps taking goods as an unsheltered pile of half again its size, where food rots and timber
 weathers, and producers stop only when that pile is full too, or when the realm is already sitting
-on six times what it keeps at least of that good. The first warning names the settlement and asks
-for another barn, granary or stockpile; the second means work has already halted somewhere.
+on six times what it keeps at least of that good (60 days of meals for food). The second means
+work has already halted somewhere.
+
+**Stores overflowing** is specific. It names the store with the worst pile, the good lying in its
+yard and how much of it there is - "Stores overflowing in Ashford: 249 meat lie outside and spoil"
+- and its show button takes you to that store, not to the village centre. The fix line depends on
+whether the village can help itself:
+
+- **A roof still has room.** The card names the store the goods are going to and tells you the
+  carriers are already moving them. Nothing to build; the pile drains on its own, and if it is not
+  draining you are short of hands, not of storage.
+- **No roof has room.** The card says which good has run out of shelter and asks for a barn or a
+  granary in that settlement. This is the one that needs a building.
 
 **Starving and Freezing count the collapsed.** Once a villager's health falls under 40 % they go
 down where they stand, and the alert says how many have collapsed and goes straight to danger, with

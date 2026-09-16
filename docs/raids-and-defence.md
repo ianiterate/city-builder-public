@@ -14,7 +14,15 @@ victory. Difficulty halves or doubles them. After a raid there are 70 to 140 qui
 ## The warning
 
 A raid is announced three days ahead. Its strength is 4, plus 2 per 500 of wealth in the targeted
-settlement, plus 2.5 per year played, scaled by how hostile the house is. The banner offers:
+settlement (counted up to **3,000** of goods and gold, so a rich village is worth up to 12 points
+of raiders), plus 2.5 per year played, scaled by how hostile the house is.
+
+**Raiders keep pace with your walls.** Whatever that sum comes to, a raid is never weaker than
+**four fifths of the defence score** of the village it is aimed at, and the size of the band grows
+with the strength, so a militia and a ring of towers buys you a hard fight rather than a free one.
+Defences still pay: they decide who wins, not whether anyone comes.
+
+The banner offers:
 
 - **Pay off**, at 3 gold per point of strength, only while the band is still on the road. It also
   warms the house a little.
