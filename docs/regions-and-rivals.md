@@ -93,6 +93,7 @@ shows both strengths and a low and high count of the dead before you commit.
 
 The fight itself happens on the map: the band musters at a border post, crosses, and has four days
 to break the ring around the rival's seat and burn the hall. The garrison sallies out to stop it.
+Wounded men are carried home by the band and released where it mustered, never left in the field.
 See [Campaigns on the map](raids-and-defence.md#campaigns-on-the-map) for the hit points, the
 torches and the casualty rules. A won conquest takes the region, 15 standing and 20 gold plus a
 fifth of the loser's wealth, and ends the war with a 180-day truce.

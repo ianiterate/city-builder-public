@@ -108,8 +108,11 @@ them; if the garrison holds, the attacker walks home with fewer spears. Either w
 records it, and the balance of the valley you are racing shifts while you watch.
 
 Casualties are capped: at most a third of the band falls, and never the lord. A man down to 40 %
-health leaves the fight and walks home wounded. Men in a band neither eat nor freeze; each carries
-one ration from the muster.
+health is wounded: he drops out of the fight, nobody strikes at him again, and **the column carries
+him home**. He keeps to the crossing point while the fit men do the work, walks back with them
+when the band turns for home, and is only let go at the border post where he mustered, mending a
+quarter of his health a day on the way. Nobody is left in someone else's fields. Men in a band
+neither eat nor freeze; each carries one ration from the muster.
 
 ## Their campaigns
 
