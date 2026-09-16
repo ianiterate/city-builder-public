@@ -13,7 +13,10 @@ nobody works there, but what was delivered stays. There is also a global "down t
 builder who arrives hungry or cold still puts in one unit of work before leaving, so a far site
 never stalls forever.
 
-Demolishing takes two clicks within four seconds and returns nothing.
+**Dismantling** takes two clicks within four seconds. A finished building gives back half its
+build cost, rounded down per material; a site gives back everything already carried to it, and
+so does an upgrade in progress. The goods go to the storehouses that have room and the rest is
+lost - the toast tells you which. Walls and gates refund the same way.
 
 ## The buildings
 
@@ -32,7 +35,7 @@ in free build everything is open from the start.
 | Farm | 3x3 | 6 wood | 1 | grain, harvested in autumn |
 | Barn | 3x2 | 20 wood, 6 planks | | stores 600 of food and flour, plus 300 outside where it rots |
 | Well | 1x1 | 8 stone | | +0.05 happiness within 8 |
-| Pasture | 3x3 | 16 wood | 1 herder | meat and leather |
+| Pasture | 3x3 | 16 wood | 1 herder | meat and leather; the herd can be culled for 20 meat and 5 leather, then idle 60 days |
 | Palisade | 1x1 | 2 wood | | a wall piece, 60 hit points |
 | Gate | 1x1 | 4 wood | | a wall piece people can pass, 40 hit points |
 | Quarry | 2x2 | 12 wood | 2 | stone from stone tiles within 6 |

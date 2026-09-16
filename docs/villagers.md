@@ -11,9 +11,18 @@ Two meters drive everything: **hunger** and **cold**.
 - Cold rises with the season: almost none in spring, none in summer, a quarter unit a day in
   autumn and a full unit a day in winter, multiplied by the weather. A villager without clothing
   gets cold 1.5 times as fast. In spring and summer cold thaws by half a unit a day.
-- At a full hunger meter a villager is **starving** and dies after 5 days without a meal.
-- At a full cold meter a villager is **freezing** and dies after 4 days without warmth.
-- A villager who is neither starving nor freezing heals a quarter of their health a day.
+- Hunger reaches 1.0 about a day after the last meal. From there the villager is **starving** and
+  their health drains away over five days.
+- At 40 % health a starving or freezing villager **collapses**. They stop working, walk at 40 % of
+  their speed, and want nothing but food or a lit hearth - they will not haul, build, sleep or
+  stand a watch. The drain halves while they are down, so a collapse buys you time: death comes at
+  zero health, about eight days after the last meal on normal difficulty.
+- Cold is the same story, faster: at a full cold meter a villager is **freezing**, collapses after
+  2.4 days and dies after 5.6.
+- A villager who is neither starving nor freezing heals a quarter of their health a day, and gets
+  back on their feet at 80 % health. A collapsed villager who reaches food eats their fill and
+  carries a ration back to the fire, and heals twice as fast while lying still, so feeding them
+  or lighting the hearth is enough.
 
 Warmth comes from a lit hearth. Sleeping at home with the hearth lit removes two units of cold a
 night; standing at a fire removes four a day. A hearth is lit only if the house has firewood on its
@@ -55,6 +64,17 @@ labourers restock them from the stores. See [Buildings and town tiers](buildings
   food per villager and town happiness of 0.5 or better.
 - A new game starts with 6 villagers aged 16 to 36 and a stockpile holding 60 wood, 120 grain,
   40 meat, 30 firewood, 12 tools and 12 clothing (scaled by difficulty).
+
+### When the village is small
+
+A settlement with fewer than **6 adults** rallies: everybody left moves 30 % faster and carries
+30 % more, and they keep it up until the settlement is back to **10 adults**. A hamlet that has
+just lost half its people can still walk the food home.
+
+If a settlement falls under **4 adults**, word gets about and **desperate stragglers** turn up at
+the door: three ragged travellers with two sacks of grain and a bundle of firewood, asking for a
+roof. Taking them in is three pairs of hands; sending them away still leaves you the sacks. See
+[Traits and events](traits-and-events.md).
 
 ## Jobs
 

@@ -121,6 +121,26 @@ adult pays 2 gold per tax level, times 1 in a house, 2 in a burgher house and 3 
 Each tax level costs 0.08 happiness. Gold buys from the merchant, pays gifts and pacts to the rival
 houses, buys off raiders, and funds campaigns (see [Regions and rivals](regions-and-rivals.md)).
 
+### Strict rationing
+
+The treasury panel carries one emergency lever: **strict rationing**, on or off for the whole
+realm. Under it a meal and a night's firewood count for 0.65 of what they usually do, so a larder
+and a woodpile last about 54 % longer - half again as far. The price is that everyone works a
+fifth slower and takes 0.2 off the happiness the town settles towards. Hearths stay lit on a
+smaller fire. Turn it on when the food days run short, and off again once the hunters are back.
+
+### Getting materials back
+
+**Dismantling** a finished building returns half its build cost, rounded down, per material. A
+building site returns everything already delivered to it, in full; the same is true for the
+materials already carried to an upgrade in progress. Nothing comes back for the labour, and nothing
+for firewood burnt. The goods go into the storehouses with free space; if there is no room, the
+rest is lost and the toast says how much. Walls and gates refund the same way.
+
+**Culling a pasture's herd** is the other quick larder: 20 meat and 5 leather straight into the
+stores, and the pasture then stands idle for 60 days while the herd is rebuilt. The herder is put
+to other work in the meantime. It is a loan against next season, not a living.
+
 ## Upkeep of the higher tiers
 
 A burgher house wants one ale per adult every 12 days; a townhouse wants that plus one salt every

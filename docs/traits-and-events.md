@@ -51,6 +51,14 @@ comes once. Difficulty scales how often they come.
 | Foragers in the fields | let them take grain, or post men for gold |
 | A quarrel in the weakest house | stay out, or back the usurper for 60 gold and a claim on their land |
 | What the valley remembers | a feast for every house, or a colder remembrance and a claim |
+| Desperate stragglers | take in three settlers with 45 grain and 10 firewood, or keep only the sacks |
 
 Costs that cannot be paid are taken in happiness instead. Some costs scale with the years played or
 with your standing, so the same matter weighs more on a great house.
+
+**Desperate stragglers** is the one matter that is never rolled. It arrives when a settlement falls
+under four adults: word of an emptying hamlet travels, and three ragged travellers stand at the
+door with two sacks of grain and a bundle of firewood, asking for a roof. The settlers and the
+goods land in that settlement, not at the capital. A village founded less than 60 days ago is
+left to fill on its own. It can happen again, but at most once every 240 days, so it is a hand up
+out of a disaster and not a way to grow a village.
