@@ -6,10 +6,10 @@ houses that grow, settle, covet and march on their own.
 ## Regions
 
 The valley is cut into 6 to 14 regions of roughly 350 land tiles each, named like Ravendale or
-Thornmere. Your start is always region one. A region has one owner or none; on the ground a border is a
-faint line in the owner's colour with a marker post every few tiles, not a fence. Press M for the regional map: hover a region for its holder
-and the claim meters, click it for what stands there, your claim broken into its parts, and what you
-may do about it.
+Thornmere. Your start is always region one. A region has one owner or none; on the ground a border
+is a faint line in the owner's colour with a marker post every few tiles, not a fence. Press M for
+the regional map: hover a region for its holder and the claim meters, click it for what stands
+there, your claim broken into its parts, and what you may do about it.
 
 ## The two houses
 
@@ -93,8 +93,8 @@ fifth of the loser's wealth, and ends the war with a 180-day truce.
 A **raid** on a house's home region needs neither claim nor border and takes no land; the band
 loots and leaves.
 
-Houses campaign against you the same way, on your ground. "Walls that held" is the card for
-repelling one.
+Houses campaign against you the same way, on your ground. "Turn back a campaign of theirs" is the
+card for repelling one.
 
 ## Diplomacy
 

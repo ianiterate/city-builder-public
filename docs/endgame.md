@@ -29,4 +29,4 @@ You may keep watching the valley turn, but nothing counts any more, or start a n
 After victory the game continues. Nothing is switched off, the rival houses keep their armies and
 their claims, and the world grows harder: raid odds and the houses' armies each rise by 10 % per
 year since the victory, and the help given to houses that fall behind stops. Losing the capital
-still ends the house. The card for this age is simply to rule on.
+still ends the house. The victory screen names this age, and its only button is "Rule on".

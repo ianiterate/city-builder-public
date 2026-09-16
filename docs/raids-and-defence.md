@@ -5,7 +5,7 @@
 The two rival houses of the valley raid you when they are hostile: attitude below -0.1 or a grudge
 above 0.3. The Hill Folk start friendly and cautious; the Marsh Men start hostile and warlike, so
 the first raiders are usually theirs. No raid comes in the first year. In a guided game the first
-raid waits until "A full larder" is done plus 20 days, and is capped at strength 5.
+raid waits until "A fortnight of food in store" is done plus 20 days, and is capped at strength 5.
 
 Each day a hostile house rolls for a raid. The odds grow with your wealth (treasury plus the value
 of your stores, in steps of 500), with a grudge, double at open war, and with the threat scale after
@@ -29,7 +29,7 @@ phase: warning, marching, at the walls, fighting, looting, leaving.
 
 The defence score of a settlement is 2 per militiaman (3 with a tool), plus the defence value of
 every finished building (palisade 1, gate 1, barracks 2, watchtower 6), plus half a point per other
-adult, all scaled by the lord's warlike trait. "Watch the borders" asks for 8.
+adult, all scaled by the lord's warlike trait. "Set a watch on the borders" asks for 8.
 
 - A **barracks** trains up to 4 militia. They fight at 2 (3 with a tool) against a raider's 1 and
   move faster. A militiaman down to 40 % health is wounded and sits out the rest of the raid.
@@ -65,24 +65,25 @@ border post**: the tile of yours nearest the rival's hall. The band waits until 
 there, then crosses the border together and walks to the seat. It cuts through anything in the way
 rather than going around forever.
 
-Every rival house holds a **seat** in each of its regions: a hall inside a palisade ring with one
-gate. The house's first seat also has a barracks and a watchtower. You cannot enter the ring
-without breaking it, and you cannot build inside it.
+Every rival house holds a **seat** in each of its regions: a hall inside a palisade ring four tiles
+out, with one gate facing the nearest map edge. The house's first seat also has a barracks and a
+watchtower inside the ring, which widens to five tiles if the pair will not otherwise fit. You
+cannot enter the ring without breaking it, and you cannot build inside it.
 
 - The **garrison** sallies out when your band comes within 8 tiles of the hall: 2 to 8 spearmen,
   scaled by the share of the house's army that region carries. Each one killed takes a spear off
   the house's army for good.
-- **Getting in** means hacking: a gate has 60 hit points, a palisade piece 60, at 0.6 a tick per
-  man. The **watchtower** at a home seat shoots 0.25 damage every 20 ticks at any man within
+- **Getting in** means hacking: a palisade piece has 60 hit points and a gate 40, at 0.6 a tick
+  per man. The **watchtower** at a home seat shoots 0.25 damage every 20 ticks at any man within
   10 tiles, so a slow breach is a bleeding one.
 - A **torch** in the hand does three times the damage to a gate, a wall or a hall, and is used up
   on the first thing it burns down. The blacksmith makes two from one wood and one firewood; each
   militiaman takes one from the nearest store at muster if there is one.
-- A **battering ram** is pushed by two men of the band at 0.6 tiles a second, slower than the rest,
-  and does five times the damage to a **gate or a palisade**. It does nothing extra to a hall, which
-  still has to be burnt. The ram is lost at the end of the march, won or not, and the sallying
-  garrison can break it before it reaches the timber. The sawmill builds one from six planks and two
-  logs once forty planks lie in the yard, and keeps two in store.
+- A **battering ram** is pushed by two men of the band at six tenths of a man's pace, so the
+  column waits for it. It does five times the damage to a **gate or a palisade** and nothing extra
+  to a hall, which still has to be burnt. The ram is lost at the end of the march, won or not, and
+  the sallying garrison can break it before it reaches the timber. The sawmill builds one from six
+  planks and two logs once forty planks lie in the yard, and keeps two in store.
 - The band has **four days at the walls**. If the hall still stands when they run out, or if the
   band is wiped, the survivors turn for home and the defender counts the campaign repelled.
 - Burning the **hall** to nothing takes the region there and then, with everything that stands in
@@ -91,12 +92,12 @@ without breaking it, and you cannot build inside it.
 ## The houses' wars
 
 The rival houses fight each other on the same map, not in a ledger off it. When a house decides to
-take a neighbour's region it marches its spearmen out of its nearest hall and walks them to the
-neighbour's seat, where they break the ring and burn the hall exactly as your band would. You are
-not a party to it: you cannot join, and neither side turns on you while it lasts. If the attacker
-burns the hall the region changes hands between the two of them; if the garrison holds, the
-attacker walks home with fewer spears. Either way the chronicle records it, and the balance of the
-valley you are racing shifts while you watch.
+take a neighbour's region it marches half its army, between three and twelve spearmen, out of its
+nearest hall and walks them to the neighbour's seat, where they break the ring and burn the hall
+exactly as your band would. You are not a party to it: you cannot join, and neither side turns on
+you while it lasts. If the attacker burns the hall the region changes hands between the two of
+them; if the garrison holds, the attacker walks home with fewer spears. Either way the chronicle
+records it, and the balance of the valley you are racing shifts while you watch.
 
 Casualties are capped: at most a third of the band falls, and never the lord. A man down to 40 %
 health leaves the fight and walks home wounded. Men in a band neither eat nor freeze; each carries
@@ -111,7 +112,7 @@ and the villagers reacting exactly as they do in a raid.
 
 - If the hall burns, that region is lost with the buildings in it.
 - If the band is killed or turns for home empty-handed, the campaign is repelled: that is what the
-  card "Walls that held" counts.
+  card "Turn back a campaign of theirs" counts.
 
 So the walls you built against raiders are the walls that decide the war. A gate is the weak point
 on both sides of a border.

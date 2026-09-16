@@ -1,7 +1,7 @@
 # Economy
 
-The economy is a set of chains from the land to the table, with a few hard limits that decide
-whether the village survives its first winters.
+The economy is a set of chains from the land to the table. What the realm can hold is what it has
+built, and what it has banked when the frost comes decides whether it survives its first winters.
 
 ## Resources
 
@@ -33,9 +33,9 @@ weather. Everything kept under a roof keeps forever; nothing is ever lost inside
 
 - **Food**: one meal per villager per day, of any food kind. Storing two or more kinds lifts
   happiness.
-- **Firewood**: each house burns about a log a day in winter, 0.4 in autumn, and more in cold
-  weather. A village of five houses wants roughly 40 to 50 logs banked before winter, on top of
-  what the bakery and brewery burn.
+- **Firewood**: each house burns a log a day in winter, 0.4 in autumn, and more in cold weather.
+  Five houses burn about 60 logs through the autumn and 150 through the winter, on top of what the
+  bakery and brewery burn. The steward's line is 15 days a house, so 75 in the pile for five.
 - **Tools**: one per adult worker. A worker without one works at half speed. A tool wears out after
   about 80 days of work.
 - **Clothing**: one per villager, lasting three years. Without it cold rises half again as fast.
@@ -69,7 +69,7 @@ How much the realm can hold is decided by what you have built. Each store has it
 | Barn | food and flour | 600 |
 | Granary | grain, flour and bread | 900 |
 | Village hall | anything | 150 |
-| Market | anything | 150 |
+| Market | food, firewood, tools and clothing | 150 |
 | Trading post | staged goods | 300 |
 
 Every stockpile, barn and granary also takes **half again as much outside**, as an unsheltered pile
@@ -79,14 +79,14 @@ cent a season in wet or harsh weather. The hall, the market, the trading post, h
 have no yard: they fill and stop.
 
 The sheltered space goes to the goods that are worth most work first: bread and flour, ale, salt,
-cloth and tools are put under the roof before raw grain, logs and fish, so a full barn puts the raw
-grain outside before a loaf.
+cloth and tools are put under the roof first, then meat and fish, and raw grain, logs, firewood and
+planks last, so a full barn puts the raw grain outside before a loaf.
 
 Producers **work into the overflow** and down tools only when the outside pile is full too, or
 once the realm already holds six times its keep-at-least line of a good, so one stockpile does not
-swallow a summer of wood nobody needs. When
-that happens the workshop panel says so and the steward raises "no room left in any store". Before
-it comes to that you get a warning that goods are lying outside and spoiling: raise another store.
+swallow a summer of wood nobody needs. When that happens the workshop panel says so and the
+steward raises "no room left in any store". Before it comes to that you get a warning that goods
+are lying outside and spoiling: raise another store.
 
 Carters relieve a settlement whose stores pass **90 per cent** full, moving goods down to 70 per
 cent into another settlement that has room, and never below what the first settlement needs itself.

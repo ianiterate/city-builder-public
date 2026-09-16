@@ -24,9 +24,9 @@ has recovered to one and a half times the line, so it does not flicker.
 
 The two store warnings follow from how storage works (see [Economy](economy.md)): a full store
 keeps taking goods as an unsheltered pile of half again its size, where food rots and timber
-weathers, and only when that pile is full too do producers stop. The first warning names the
-settlement and asks for another barn, granary or stockpile; the second means work has already
-halted somewhere.
+weathers, and producers stop only when that pile is full too, or when the realm is already sitting
+on six times what it keeps at least of that good. The first warning names the settlement and asks
+for another barn, granary or stockpile; the second means work has already halted somewhere.
 
 Stock alerts are measured realm wide. In autumn the woodpile is measured against the winter ahead,
 not the current burn rate, so a warning in late autumn means the winter stock is short.

@@ -45,7 +45,7 @@ in free build everything is open from the start.
 | Blacksmith | 2x2 | 8 wood, 6 planks, 12 stone | 1 | iron and wood into tools |
 | Mine | 2x2 | 16 wood, 6 planks | 2 | iron from a mountain foot within 6 |
 | Tailor | 2x2 | 10 wood, 6 planks | 1 | leather into clothing |
-| Trading post | 2x2 | 24 wood, 8 planks | | brings the merchant, stores 300 |
+| Trading post | 3x2 | 24 wood, 8 planks | | brings the merchant, stores 300 |
 | Church | 2x3 | 20 wood, 10 planks, 24 stone | | +0.15 happiness within 16, the townhouse civic |
 | Manor | 3x3 | 30 wood, 12 planks, 20 stone | | the lord's seat, 4 beds, claims land within 22 |
 | Watchtower | 2x2 | 16 wood, 8 stone | | shoots raiders within 10, defence 6 |
@@ -82,6 +82,11 @@ existing settlement centre. A **manor** takes a free region too but founds nothi
 
 A settlement is called a hamlet while no house is above the first tier, a village once some are,
 and a town once half its households are burgher houses or better.
+
+Work is hired inside the settlement first (see [Villagers](villagers.md#jobs)), so a hall raised
+with houses beside it keeps its workers local. Anyone who works here but sleeps in another
+settlement is counted on the settlement row as **commuters**; a growing number there means the
+workplaces have outrun the beds, and the next house you build should go beside them.
 
 Rival houses hold a walled seat of their own in every region they own - a hall inside a palisade
 ring with one gate - which you cannot enter or build in until you break it; see

@@ -59,14 +59,35 @@ labourers restock them from the stores. See [Buildings and town tiers](buildings
 ## Jobs
 
 Jobs are rebalanced once a day. Food jobs come first, then firewood, then everything else in the
-order it was built; seasonal fields jump the queue in their season. About half the workforce at most
-goes to food. What counts as short is the amount the village wants to **keep at least**: 20 days of
-food, 15 days of firewood per house, a tool and a set of clothes per adult, and a set amount of each
-material (60 wood, 20 planks, 20 stone, 10 iron, 10 leather). The food and firewood lines are
-measured against the highest population of the last 30 days, so a raid or a hard winter does not
-quietly shrink the buffer the village works towards. A reserve of labourers is always kept back for hauling and building: two or a third of
-the adults while anything is under construction, one or a fifth otherwise. You can lock a villager
-to a job on the villagers screen and the daily rebalance leaves them alone.
+order it was built; seasonal fields jump the queue in their season. About half the workforce at
+most goes to food. What counts as short is the amount the village wants to **keep at least**: 20
+days of food, 15 days of firewood per house, a tool and a set of clothes per adult, and a set
+amount of each material (60 wood, 20 planks, 20 stone, 10 iron, 10 leather). The food and firewood
+lines are measured against the highest population of the last 30 days, so a raid or a hard winter
+does not quietly shrink the buffer the village works towards. A reserve of labourers is kept back
+in every settlement for hauling and building: two or a third of the adults while anything is under
+construction, one or a fifth otherwise, and none at all in a hamlet of fewer than three adults.
+You can lock a villager to a job on the villagers screen and the daily rebalance leaves them
+alone.
+
+**Hiring is local.** A workplace takes people from its own settlement first, and from the home
+nearest its door before one further off; a job in another settlement counts as thirty tiles
+further away, which is what keeps a hut staffed from its own hamlet. Only when every idle pair of
+hands in the whole realm is already busy does it reach into another settlement - and then the
+worker does not commute for ever: they **move house**, taking a free bed in the workplace's
+settlement and walking over with their pack on their back. If there is no free bed there they
+commute instead, and the settlement panel counts them so you know to build houses. Building a hall
+with a few houses beside it is what keeps a new settlement's work in local hands.
+
+**Shifts last three days.** Once a villager is put on a post the daily rebalance leaves them there
+for at least three days, so a good worker is not shuffled between a field and a quarry every
+morning. The rule is suspended for food and firewood work while people are starving or freezing:
+in an emergency every hand can be pulled onto bread and logs at once. While the realm is out of food or someone is starving, everyone in ordinary work goes back to labouring and foraging; only the militia, the carters and the people who make food stay at their posts. When a workplace needs someone
+it prefers to take back the worker it had last, rather than a stranger who must learn the walk.
+
+You can also decide yourself: on the villagers screen a household can be sent to another settlement
+with **Move to**, and locked there. A locked home is never moved again by the governor, neither for
+work nor when the lord takes over a house.
 
 A worker with a **tool** works at full speed; without one at half speed. A tool lasts about 80 days
 of work. **Clothing** lasts 360 days and halves the winter cold.
