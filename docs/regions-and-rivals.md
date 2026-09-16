@@ -26,7 +26,9 @@ army toward its target. Every ten days it decides what to pursue: grow, settle f
 neighbour's region, recover lost land, or defend. It expands once its population passes 70 % of
 capacity and marches only when its claim is over the line, it can pay, and it reckons itself 1.1
 times stronger than the defender, four times against a capital. Houses also deal with each other:
-they sign pacts, quarrel and fight off the map. A house far behind the leader grows faster and the
+they sign pacts, quarrel, and march on one another across the same map you play on. A house
+that covets a neighbour's region sends its spearmen from its nearest hall, and you can watch the
+fight and the burning hall from your own land. A house far behind the leader grows faster and the
 leader slower, until the valley is won.
 
 A house remembers. A refused demand, a campaign against it, or a region taken raises its grudge;

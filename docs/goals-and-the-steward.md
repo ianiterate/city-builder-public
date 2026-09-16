@@ -41,6 +41,7 @@ still tells the story.
 | Hold two regions | two regions | brewery, tavern |
 | Press a claim | a claim that can be pressed and a militia ready | burgher house |
 | First campaign | one campaign won | saltworks, townhouse |
+| Bring a ram to the next gate | one battering ram in store | |
 | Lord of the valley | 60 % of the regions and standing above every house | |
 
 ## Background cards
@@ -48,7 +49,8 @@ still tells the story.
 Some cards run in the background while the chain moves on, because they are about waiting or
 about something that will happen on its own: surviving the first winter without a death, the
 valley stirring (a region changing hands for the first time), raising a burgher house or a
-townhouse, walls that held against a campaign, and holding five regions. They finish on their own
+townhouse, bringing a battering ram out of the sawmill, walls that held against a campaign, and
+holding five regions. They finish on their own
 terms with their own reward and chronicle line. The current card forgives deaths at each new
 season; background cards do not.
 

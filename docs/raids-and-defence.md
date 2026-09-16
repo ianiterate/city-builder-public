@@ -78,10 +78,25 @@ without breaking it, and you cannot build inside it.
 - A **torch** in the hand does three times the damage to a gate, a wall or a hall, and is used up
   on the first thing it burns down. The blacksmith makes two from one wood and one firewood; each
   militiaman takes one from the nearest store at muster if there is one.
+- A **battering ram** is pushed by two men of the band at 0.6 tiles a second, slower than the rest,
+  and does five times the damage to a **gate or a palisade**. It does nothing extra to a hall, which
+  still has to be burnt. The ram is lost at the end of the march, won or not, and the sallying
+  garrison can break it before it reaches the timber. The sawmill builds one from six planks and two
+  logs once forty planks lie in the yard, and keeps two in store.
 - The band has **four days at the walls**. If the hall still stands when they run out, or if the
   band is wiped, the survivors turn for home and the defender counts the campaign repelled.
 - Burning the **hall** to nothing takes the region there and then, with everything that stands in
   it, and a 180-day truce follows.
+
+## The houses' wars
+
+The rival houses fight each other on the same map, not in a ledger off it. When a house decides to
+take a neighbour's region it marches its spearmen out of its nearest hall and walks them to the
+neighbour's seat, where they break the ring and burn the hall exactly as your band would. You are
+not a party to it: you cannot join, and neither side turns on you while it lasts. If the attacker
+burns the hall the region changes hands between the two of them; if the garrison holds, the
+attacker walks home with fewer spears. Either way the chronicle records it, and the balance of the
+valley you are racing shifts while you watch.
 
 Casualties are capped: at most a third of the band falls, and never the lord. A man down to 40 %
 health leaves the fight and walks home wounded. Men in a band neither eat nor freeze; each carries
