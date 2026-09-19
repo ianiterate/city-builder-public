@@ -68,9 +68,11 @@ Food rots outside whatever the weather.
   planted late in spring may not make it.
 - **Autumn** is the harvest. Growth stops; whatever is ripe is brought in. Hearths start burning
   firewood and villagers start to feel the cold.
-- **Winter** is the test. Fields still planted are lost, fishing stops, cold rises at full speed and
-  every house burns a log a day (more in harsh weather). Everything the village eats and burns in
-  winter must have been made before it.
+- **Winter** is the test. Fields still planted are lost, fishing stops, game is three tenths
+  scarcer so the hunters bring back less, cold rises at full speed and every house burns a log a
+  day (more in harsh weather). Everything the village eats and burns in winter must have been made
+  before it - and it has to have been made out of something that keeps, because meat and fish go
+  off on the shelf (see [Economy](economy.md)).
 
 See [Villagers](villagers.md) for how hunger and cold work, and [Economy](economy.md) for how much
 food and firewood a village needs.

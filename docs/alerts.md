@@ -21,12 +21,19 @@ has recovered to one and a half times the line, so it does not flicker.
 | Walled in | walls leave villagers with no path to a storehouse that holds food |
 | Stores overflowing | a settlement has had goods lying outside its stores for three days; the card names the store and the good |
 | No room in any store | a good being produced has nowhere left to go, and the workers have downed tools |
+| Food spoiling | a store holds meat, fish or bread with fewer than 10 days of freshness left |
 
 The two store warnings follow from how storage works (see [Economy](economy.md)): a full store
 keeps taking goods as an unsheltered pile of half again its size, where food rots and timber
 weathers, and producers stop only when that pile is full too, or when the realm is already sitting
 on six times what it keeps at least of that good (60 days of meals for food). The second means
 work has already halted somewhere.
+
+**Food spoiling** is the one that saves a winter. Meat, fish and bread go off on the shelf, not
+only in the yard, so this card names the store, the good, how much of it is close to turning and
+how many days it has. Its show button takes you there. If the village has a smokehouse or a
+salting shed the fix line says to keep it staffed and fuelled; if it has neither, it says to build
+one. Ignoring it is not a slow loss - on the morning a batch passes its span it is simply gone.
 
 **Stores overflowing** is specific. It names the store with the worst pile, the good lying in its
 yard and how much of it there is - "Stores overflowing in Ashford: 249 meat lie outside and spoil"

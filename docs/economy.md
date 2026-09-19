@@ -5,7 +5,7 @@ built, and what it has banked when the frost comes decides whether it survives i
 
 ## Resources
 
-| Resource | Made by | Used for | Spoils |
+| Resource | Made by | Used for | Keeps |
 | --- | --- | --- | --- |
 | Wood | Woodcutter | every building, firewood, planks, tools | Weathers |
 | Firewood | Wood splitter (1 wood into 5) | hearths in autumn and winter, bakery, brewery | Weathers |
@@ -15,19 +15,51 @@ built, and what it has banked when the frost comes decides whether it survives i
 | Tools | Blacksmith (1 iron + 1 wood) | one per worker, full work speed | - |
 | Leather | Pasture | clothing | - |
 | Clothing | Tailor (2 leather into 1) | one per villager, halves winter cold | - |
-| Grain | Farm (autumn harvest) | eaten raw, flour, ale | Rots |
-| Flour | Mill (2 grain into 2) | bread | Rots |
-| Bread | Bakery (2 flour + 1 firewood into 5) | food | Rots |
-| Meat | Hunter, Pasture | food | Rots |
-| Fish | Fishing hut, spring to autumn | food | Rots |
-| Ale | Brewery (2 grain + 1 firewood into 3) | burgher houses, townhouses, tavern | - |
-| Salt | Saltworks, all year | townhouses | - |
+| Grain | Farm (autumn harvest) | eaten raw, flour, ale | for ever indoors |
+| Flour | Mill (2 grain into 2) | bread | for ever indoors |
+| Bread | Bakery (2 flour + 1 firewood into 5) | food | **45 days** |
+| Meat | Hunter, Pasture | food | **60 days** |
+| Fish | Fishing hut, spring to autumn | food | **45 days** |
+| Cured meat | Smokehouse or salting shed (3 meat + 1 firewood or salt into 2) | food the winter cannot spoil | for ever |
+| Cured fish | Smokehouse or salting shed (3 fish + 1 firewood or salt into 2) | food the winter cannot spoil | for ever |
+| Ale | Brewery (2 grain + 1 firewood into 3) | burgher houses, townhouses, tavern | for ever |
+| Salt | Saltworks, all year | townhouses, curing meat and fish | for ever |
 | Torch | Blacksmith (1 wood + 1 firewood into 2) | carried on campaign: burns gates, walls and halls three times faster | - |
 | Battering ram | Sawmill (6 planks + 2 wood into 1, once 40 planks lie in the yard) | pushed to a gate on campaign: brings gates and palisades down five times faster | - |
 
-**Spoils** says what happens to a good left outside a full store. *Rots*: 15 per cent of the
-unsheltered pile is lost each season. *Weathers*: 10 per cent a season, but only in wet or harsh
-weather. Everything kept under a roof keeps forever; nothing is ever lost inside a store.
+**Keeps** is the part of this table to read first, because it decides what a good year is worth.
+
+Meat, fish and bread go off **even under a roof**. Every batch carries the day it was put away, and
+on the morning it passes its span it is gone: not reduced, gone, and the chronicle records which
+store lost it. Click a store and hover a good to see how long that pile has left. The oldest units
+are always the ones taken first, whether a villager is eating, a carter is loading or a merchant is
+buying, so a larder that turns over never loses anything at all.
+
+Grain, flour, ale, salt and both cured goods keep for ever indoors. That is the whole shape of the
+game's winter: the farm chain is what you bank, and a hunter's summer is what you eat now or cure.
+
+Goods left **outside** a full store are worse off again. Anything that rots loses 15 per cent of
+the unsheltered pile a season on top of its own clock, and wood, firewood and planks lose 10 per
+cent a season in wet or harsh weather.
+
+## Preserving
+
+A full barn in summer is not a solved winter, it is a decision. Two buildings turn food that will
+turn into food that will not, and both cost a third of it:
+
+| | Takes | Gives | Costs |
+| --- | --- | --- | --- |
+| Smokehouse | 3 meat or fish + 1 firewood | 2 cured | wood 12, stone 4, planks 4 |
+| Salting shed | 3 meat or fish + 1 salt | 2 cured | wood 10, planks 6 |
+
+The smokehouse burns firewood, which competes with your hearths in winter; the salting shed burns
+nothing but eats what the saltworks boils off, so a village on the shore has the cheaper route and
+an inland one does not. Either will cure meat while there is meat and switch to fish when there is
+not. Cured goods never spoil, count as food like any other meal, and the merchant pays more for
+them than for the raw.
+
+The one third lost in the curing is the point: it is why banking everything is not free, and why a
+hunter's surplus is worth less than a farmer's.
 
 ## How much a village needs
 
@@ -60,7 +92,8 @@ of that where the trees are all but gone, scaled in between. Hunting is not free
 one trip in ten thins a tree near the lodge, the same as a woodcutter's felling. Woodcutters and
 hunters therefore share the same woods, and a forest cleared for timber quietly starves the
 larder. Site lodges in deep forest, leave a stand uncut near them, and remember that forests grow
-back slowly.
+back slowly. **Winter takes three tenths off a hunter's catch** on top of all that, and the fishing
+huts are shut from the first frost, so the cold months are eaten out of what you put by.
 
 Each of these huts takes two workers. A **farm** is a 3 by 3 field with one farmer: planting takes
 work in spring, the crop needs 45 growing days, and the harvest in autumn is up to 36 cycles of
@@ -100,9 +133,10 @@ the carters' work.
 
 Producers **work into the overflow** and down tools only when the outside pile is full too, or
 once the realm already holds six times its keep-at-least line of a good, so one stockpile does not
-swallow a summer of wood nobody needs. Food is the exception: hunters, fishers, farmers and
-herders down tools once the realm holds **60 days of meals**, and go back to work as soon as the
-larder falls under it. When a producer stops the workshop panel says so and the steward raises
+swallow a summer of wood nobody needs. Food is the exception, and it is banked only as deep as it
+keeps: **60 days of meals** of anything that lasts, but only **40 days of meat** and **30 of fish
+or bread**, which is two thirds of their span. A pile deeper than that is one the village would
+have thrown away, so the hunters stop and do something else instead. When a producer stops the workshop panel says so and the steward raises
 "no room left in any store". Before it comes to that you get a warning that goods are lying
 outside and spoiling, naming the store and the good (see [Warnings](alerts.md)).
 

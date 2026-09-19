@@ -45,6 +45,8 @@ in free build everything is open from the start.
 | Mill | 2x2 | 10 wood, 10 planks, 6 stone | 1 | grain into flour |
 | Bakery | 2x2 | 8 wood, 8 planks, 10 stone | 1 | flour and firewood into bread |
 | Granary | 3x2 | 24 wood, 8 planks, 6 stone | | stores 900 of grain, flour and bread, plus 450 outside |
+| Smokehouse | 2x2 | 12 wood, 4 planks, 4 stone | 1 | 3 meat or fish + 1 firewood into 2 cured, which never spoil |
+| Salting shed | 2x2 | 10 wood, 6 planks | 1 | 3 meat or fish + 1 salt into 2 cured; burns nothing |
 | Blacksmith | 2x2 | 8 wood, 6 planks, 12 stone | 1 | iron and wood into tools |
 | Mine | 2x2 | 16 wood, 6 planks | 2 | iron from a mountain foot within 6 |
 | Tailor | 2x2 | 10 wood, 6 planks | 1 | leather into clothing |
