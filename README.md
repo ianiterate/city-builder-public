@@ -15,7 +15,8 @@ are kept in step with the game and republished with every build.
 - [The world and the seasons](docs/world-and-seasons.md): the map, terrain, weather and the year.
 - [Villagers](docs/villagers.md): hunger, cold, the daily round, houses, births, local hiring and
   moving house for work, jobs and happiness.
-- [Economy](docs/economy.md): resources and chains, stores, trade, taxes and the higher tiers' needs.
+- [Economy](docs/economy.md): resources and chains, food that goes off and how to preserve it, stores,
+  trade, taxes and the higher tiers' needs.
 - [Buildings and town tiers](docs/buildings-and-tiers.md): every building, placement, sites, upgrades and settlements.
 - [Alerts](docs/alerts.md): what the steward warns about and when.
 
@@ -34,7 +35,9 @@ are kept in step with the game and republished with every build.
 ## In one paragraph
 
 Six people arrive in a clearing with a winter coming. Cut wood, raise roofs, split firewood and
-stock food, because hunger kills in five days and cold in four. Fields, workshops and a manor turn
+stock food, because hunger kills in five days and cold in four. A full barn is not a solved winter:
+meat and fish go off on the shelf, so a good summer has to be sown into the fields or smoked and
+salted into food that keeps. Fields, workshops and a manor turn
 the hamlet into a town with a lord, taxes and heirs. Two rival houses share the valley; they grow,
 settle and covet on the same rules you play by. Regions fall to whoever presses the strongest
 claim, by building, bordering, standing, marriage or war, and a campaign is fought on the map:
