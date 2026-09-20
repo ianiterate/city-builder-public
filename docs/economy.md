@@ -92,8 +92,10 @@ of that where the trees are all but gone, scaled in between. Hunting is not free
 one trip in ten thins a tree near the lodge, the same as a woodcutter's felling. Woodcutters and
 hunters therefore share the same woods, and a forest cleared for timber quietly starves the
 larder. Site lodges in deep forest, leave a stand uncut near them, and remember that forests grow
-back slowly. **Winter takes three tenths off a hunter's catch** on top of all that, and the fishing
-huts are shut from the first frost, so the cold months are eaten out of what you put by.
+back slowly. **Winter all but shuts the woods**: a hunter brings back a quarter of his summer
+catch, the fishing huts are closed from the first frost, and the pasture gives nothing at all until
+spring, because a herd is kept alive in the snow rather than fattened. Winter is eaten out of what
+you put by, and a herd you cannot feed through it can always be culled (see below).
 
 Each of these huts takes two workers. A **farm** is a 3 by 3 field with one farmer: planting takes
 work in spring, the crop needs 45 growing days, and the harvest in autumn is up to 36 cycles of
